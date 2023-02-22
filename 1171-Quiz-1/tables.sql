@@ -17,3 +17,14 @@ values
   ('Akeylah', 'Programmer', '50000'),
   ('Gabriela', 'Artist', '1500');
 
+
+ --Queries 
+-- Display table 
+ SELECT*
+ FROM employees;
+ 
+ 
+ --Order names in descending order
+ SELECT  name
+ FROM employees
+ ORDER BY name DESC;
