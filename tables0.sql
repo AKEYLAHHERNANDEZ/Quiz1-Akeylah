@@ -19,8 +19,8 @@ values
 
 --Queries 
 SELECT*
-FROM employee;
+FROM employees;
 
 SELECT name
-FROM employee
-ORDER BY DESC;
+FROM employees
+ORDER BY name DESC;
